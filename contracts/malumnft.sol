@@ -38,7 +38,7 @@ contract malumnft is ERC721URIStorage {
   }
 
   function pickRandomThirdWord(uint256 tokenId) public view returns (string memory) {
-    uint256 rand = random(string(abi.encodePacked("ücüncü", Strings.toString(tokenId))));
+    uint256 rand = random(string(abi.encodePacked("ucuncu", Strings.toString(tokenId))));
     rand = rand % thirdWords.length;
     return thirdWords[rand];
   }
