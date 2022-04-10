@@ -21,7 +21,7 @@ contract malumnft is ERC721URIStorage {
   string[] secondWords = ["Sican", "Zortlayan", "Aglayan", "Duraksayan", "Ziplayan", "Firtlayan", "Uyuyan"];
   string[] thirdWords = ["Hizbo", "Dirzo", "Chad", "Odtulu", "Coder", "Imamoglu", "Mansur"];
 
-  constructor() ERC721 ("SquareNFT", "SQUARE") {
+  constructor() ERC721 ("uclu", "uclu") {
     console.log("This is my NFT contract. Woah!");
   }
 
