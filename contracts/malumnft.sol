@@ -19,9 +19,9 @@ contract malumnft is ERC721URIStorage {
 
   // I create three arrays, each with their own theme of random words.
   // Pick some random funny words, names of anime characters, foods you like, whatever! 
-  string[] firstWords = ["evde", "arabada", "uzayda", "mahallede", "okulda", "aspavada", "amerikada"];
-  string[] secondWords = ["sican", "zortlayan", "aglayan", "duraksayan", "ziplayan", "firtlayan", "uyuyan"];
-  string[] thirdWords = ["hizbo", "dirzo", "chad", "odtulu", "coder", "imamoglu", "mansur"];
+  string[] firstWords = ["Evde", "Arabada", "Uzayda", "Mahallede", "Okulda", "Aspavada", "Amerikada"];
+  string[] secondWords = ["Sican", "Zortlayan", "Aglayan", "Duraksayan", "Ziplayan", "Firtlayan", "Uyuyan"];
+  string[] thirdWords = ["Hizbo", "Dirzo", "Chad", "Odtulu", "Coder", "Imamoglu", "Mansur"];
 
   constructor() ERC721 ("SquareNFT", "SQUARE") {
     console.log("malumnft");
