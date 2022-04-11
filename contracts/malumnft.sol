@@ -105,6 +105,6 @@ contract malumnft is ERC721URIStorage {
     _tokenIds.increment();
     console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
 
-    emit NewEpicNFTMinted(msg.sender, newItemId);
+    emit malumunilani(msg.sender, newItemId);
   }
 }
