@@ -5,8 +5,8 @@ require("@nomiclabs/hardhat-etherscan");
 module.exports = {
   solidity: '0.8.13',
   etherscan: {
-    apiKey: process.env.API_KEY,
-  }
+    apiKey: "API_KEY_TO_VERIFY",
+  },
   networks: {
     rinkeby: {
       url: process.env.STAGING_ALCHEMY_KEY,
