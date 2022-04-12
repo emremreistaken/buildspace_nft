@@ -1,8 +1,12 @@
 require('@nomiclabs/hardhat-waffle');
 require('dotenv').config();
+require("@nomiclabs/hardhat-etherscan");
 
 module.exports = {
   solidity: '0.8.13',
+  etherscan: {
+    apiKey: process.env.API_KEY,
+  }
   networks: {
     rinkeby: {
       url: process.env.STAGING_ALCHEMY_KEY,
