@@ -19,8 +19,8 @@ contract malumnft is ERC721URIStorage {
   string svgPartTwo = "'/><text x='50%' y='50%' class='base' dominant-baseline='middle' text-anchor='middle'>";
 
   string[] firstWords = ["Evde", "Arabada", "Uzayda", "Mahallede", "Okulda", "Aspavada", "Amerikada"];
-  string[] secondWords = ["Sican", "Zortlayan", "Aglayan", "Duraksayan", "Ziplayan", "Firtlayan", "Uyuyan"];
-  string[] thirdWords = ["Hizbo", "Dirzo", "Chad", "Odtulu", "Coder", "Imamoglu", "Mansur"];
+  string[] secondWords = ["Horlayan", "Zortlayan", "Aglayan", "TaklaAtan", "Ziplayan", "Zortlayan", "Uyuyan"];
+  string[] thirdWords = ["Insan", "Fare", "Chad", "Odtulu", "Coder", "Imamoglu", "Mansur"];
 
   string[] colors = ["red", "#08C2A8", "black", "yellow", "blue", "green"];
 
